@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/list_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<include layout="@layout/fragment_list_ubox_header" />
+	<include layout="@layout/fragment_list_tip_selectable" />
+	<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<com.pantech.app.music.list.component.view.IndexedListView android:id="@id/cloudlistview" android:visibility="gone" style="@style/ListViewStyle" />
+		<include layout="@layout/fragment_subview_empty_page" />
+	</FrameLayout>
+</LinearLayout>

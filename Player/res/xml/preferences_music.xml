@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<Preference android:title="@string/SettingSubTitleAudioEffect" android:key="@string/pref_key_audio_effect" android:summary="@string/SettingDescriptionAudioEffect" />
+	<PreferenceCategory android:layout="@layout/preference_category_custom_setting" android:title="@string/SettingTitleCustomize">
+		<Preference android:entries="@array/pref_category_titles" android:title="@string/SettingPopupTitleTabCategory" android:key="@string/pref_key_category_view_items" android:summary="@string/SettingSubTitleDisplayTitleOption" android:defaultValue="0" android:entryValues="@array/pref_category_values" />
+		<SwitchPreference android:title="@string/SettingSubTitleDisplayTitleOption" android:key="@string/pref_key_list_display_filename" android:summary="@string/SettingDescriptionDisplayTitleOption" android:defaultValue="false" />
+		<SwitchPreference android:title="@string/SettingSubTitleAutoPlugnPlay" android:key="@string/pref_key_headset_plug_auto_play" android:summary="@string/SettingDescriptionAutoPlugnPlay" android:defaultValue="false" />
+		<Preference android:entries="@array/pref_auto_stop_titles" android:title="@string/SettingSubTitleSleepMode" android:key="@string/pref_key_playback_auto_stop" android:summary="@string/SettingDescriptionSleepMode" android:defaultValue="0" android:entryValues="@array/pref_auto_stop_values" />
+	</PreferenceCategory>
+	<PreferenceCategory android:layout="@layout/preference_category_data_noti" android:title="@string/SettingTitleNotification">
+		<SwitchPreference android:title="@string/Setting3gNotiPopup" android:key="@string/pref_key_connect_data_noti" android:summary="@string/SettingDescriptionDataNetwork" android:defaultValue="true" />
+	</PreferenceCategory>
+</PreferenceScreen>

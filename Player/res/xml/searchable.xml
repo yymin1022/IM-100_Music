@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android" android:label="@string/TitleSearch" android:hint="@string/TitleSearch" android:imeOptions="actionSearch" android:searchSuggestThreshold="1" android:includeInGlobalSearch="true" android:queryAfterZeroResults="true" android:searchSettingsDescription="@string/TitleSearch" />

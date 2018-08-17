@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.85">
+	<RelativeLayout android:id="@id/scroll_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<ScrollView android:id="@id/playback_scrollview" android:background="#00000000" android:scrollbars="none" android:fadingEdgeLength="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:requiresFadingEdge="vertical">
+			<TextView android:textSize="13.0sp" android:textColor="#99ffffff" android:ellipsize="none" android:gravity="start" android:id="@id/playback_lyrics" android:paddingTop="54.0dip" android:paddingBottom="300.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" android:lineSpacingExtra="19.0sp" android:paddingStart="25.0dip" android:paddingEnd="85.0dip" />
+		</ScrollView>
+		<LinearLayout android:orientation="vertical" android:id="@id/lyrics_dim_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-50.0dip" android:layout_alignParentBottom="true" android:rotation="-30.0" android:layout_marginStart="-100.0dip" android:layout_marginEnd="-50.0dip">
+			<RelativeLayout android:background="@drawable/playback_lyrics_mask" android:layout_width="fill_parent" android:layout_height="120.0dip" />
+			<RelativeLayout android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="200.0dip" />
+		</LinearLayout>
+	</RelativeLayout>
+	<RelativeLayout android:gravity="center" android:id="@id/lyrics_info_layout" android:background="@color/playback_dropdown_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/has_no_lyrics" android:singleLine="true" android:layout_centerHorizontal="true" android:layout_centerVertical="false" />
+	</RelativeLayout>
+	<RelativeLayout android:background="@drawable/playback_lyrics_mask" android:layout_width="fill_parent" android:layout_height="90.0dip" android:rotation="180.0" />
+</RelativeLayout>

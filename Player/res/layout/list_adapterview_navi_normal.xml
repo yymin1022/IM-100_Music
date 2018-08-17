@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.pantech.app.music.list.component.view.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" style="@style/ListItemLayoutNavi">
+	<TextView android:textSize="@dimen/ListMainTextFontSize" android:ellipsize="end" android:gravity="center|left" android:id="@id/list_navi_main_text" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:singleLine="true" />
+</com.pantech.app.music.list.component.view.CheckableLinearLayout>

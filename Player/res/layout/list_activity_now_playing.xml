@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/list_main_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<include layout="@layout/list_activity_background" />
+	<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:orientation="horizontal" android:id="@id/fragment_list_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+		<include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/list_action_mode_bottom" />
+		<FrameLayout android:id="@id/fragment_miniPlayer_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginBottom="-2.0dip" />
+	</LinearLayout>
+	<FrameLayout android:id="@id/list_bubble_tip_dummy_touch_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.pantech.app.music.list.component.view.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/ListItemLayoutIncludeAlbumart">
+	<com.pantech.app.music.list.component.view.CheckableImageView android:id="@id/main_icon" android:layout_marginRight="9.0dip" style="@style/ListAlumartIconStyle" />
+	<LinearLayout android:gravity="center|left" android:layout_gravity="center|left" android:orientation="vertical" android:background="@color/translucent_background" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+		<TextView android:id="@id/main_text" style="@style/ListMainTextStyle" />
+		<TextView android:id="@id/sub_text" style="@style/ListSubTextStyle" />
+	</LinearLayout>
+</com.pantech.app.music.list.component.view.CheckableLinearLayout>

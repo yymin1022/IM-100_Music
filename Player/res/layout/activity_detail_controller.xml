@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<RelativeLayout android:gravity="end" android:id="@id/detail_controller_background" android:background="#b2000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<RelativeLayout android:id="@id/detail_controller_body_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<com.pantech.app.music.player.RepeatingImageButton android:id="@id/control_plus_btn" android:background="@drawable/control_btn_bg" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="68.0dip" android:layout_marginBottom="21.0dip" android:src="@drawable/control_plus_btn_src" android:layout_centerHorizontal="true" android:contentDescription="@string/seekplus" android:layout_marginEnd="70.0dip" />
+			<RelativeLayout android:gravity="center" android:id="@id/detail_controller_main" android:background="@drawable/control_bg" android:clickable="true" android:layout_width="148.0dip" android:layout_height="148.0dip" android:layout_below="@id/control_plus_btn" android:layout_centerHorizontal="true" android:layout_marginEnd="16.0dip" android:backgroundTint="@color/detail_controller_info_color">
+				<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/control_value_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<ImageView android:id="@id/control_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/music_ctrl_ff" android:contentDescription="@string/fastforward" android:layout_marginEnd="9.0dip" />
+					<TextView android:textSize="19.0sp" android:textColor="@color/detail_controller_seek_offset_text_color" android:id="@id/control_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+				</LinearLayout>
+				<TextView android:textSize="31.0sp" android:textColor="@color/colorBlack95" android:gravity="center" android:id="@id/current_pos" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="100:99" android:layout_below="@id/control_value_layout" android:textAlignment="gravity" />
+				<TextView android:textSize="17.0sp" android:textColor="@color/colorBlack80" android:gravity="center" android:id="@id/control_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/time" android:layout_below="@id/current_pos" android:textAlignment="gravity" />
+			</RelativeLayout>
+			<com.pantech.app.music.player.RepeatingImageButton android:id="@id/control_minus_btn" android:background="@drawable/control_btn_bg" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="21.0dip" android:src="@drawable/control_minus_btn_src" android:layout_below="@id/detail_controller_main" android:layout_centerHorizontal="true" android:contentDescription="@string/seekminus" android:layout_marginEnd="70.0dip" />
+		</RelativeLayout>
+	</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item>
+		<bitmap android:gravity="center" android:src="@drawable/pt_btn_radio_box_off_mtrl_pressed_004" />
+	</item>
+	<item>
+		<bitmap android:gravity="center" android:src="@drawable/pt_btn_radio_on_mtrl_pressed_004" android:tint="?colorControlActivated" />
+	</item>
+</layer-list>

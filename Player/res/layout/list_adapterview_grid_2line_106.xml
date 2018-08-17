@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.pantech.app.music.list.component.view.CheckableFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/grid_layer" style="@style/GridViewChildViewLayerStyle">
+	<FrameLayout android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="@dimen/GridViewColumnAlbumartHeight">
+		<FrameLayout android:layout_gravity="center_vertical" android:paddingLeft="37.0dip" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="@dimen/GridViewAlbumartHeight106">
+			<com.pantech.app.music.list.component.view.CheckableImageView android:id="@id/main_icon" android:layout_width="@dimen/GridViewAlbumartWidth106" android:layout_height="@dimen/GridViewAlbumartHeight106" android:scaleType="fitXY" />
+			<ImageView android:id="@id/main_icon_multiple" android:layout_width="wrap_content" android:layout_height="@dimen/GridViewAlbumartHeight106" android:src="@drawable/translucent_background" />
+		</FrameLayout>
+		<com.pantech.app.music.list.component.view.CheckableImageView android:layout_gravity="center|left|top" android:id="@id/grid_checkbox" android:background="@drawable/translucent_background" android:duplicateParentState="true" android:layout_width="23.0dip" android:layout_height="23.0dip" android:layout_marginLeft="13.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/list_adapterview_grid_checkbox" />
+	</FrameLayout>
+	<LinearLayout android:id="@id/grid_2line_text_layer" android:duplicateParentState="true" style="@style/GridViewInnerInfoLayerStyle">
+		<TextView android:id="@id/main_text" android:duplicateParentState="true" style="@style/GridViewInnerInfoMainTextStyle" />
+		<TextView android:id="@id/sub_text" android:visibility="gone" android:duplicateParentState="true" style="@style/GridViewInnerInfoSubTextStyle" />
+	</LinearLayout>
+</com.pantech.app.music.list.component.view.CheckableFrameLayout>

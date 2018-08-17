@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/list_adpater_main_layout" android:background="@drawable/ripple_effect_for_adapter_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginEnd="9.0dip">
+		<RelativeLayout android:layout_width="54.0dip" android:layout_height="54.0dip">
+			<ImageView android:id="@id/list_adapter_albumArt" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/app_name" />
+			<ImageView android:id="@id/list_adapter_checked" android:background="@drawable/ripple_effect_for_check_box" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_select_check" android:contentDescription="@string/app_name" />
+		</RelativeLayout>
+		<ImageView android:id="@id/list_adapter_playing_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_adapter_playing_icon" android:contentDescription="@string/app_name" android:layout_marginStart="7.0dip" />
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="7.0dip">
+			<TextView android:textSize="17.0sp" android:textColor="@color/list_adapter_text_main" android:id="@id/list_adapter_main_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+			<TextView android:textSize="13.0sp" android:textColor="@color/list_adapter_text_sub" android:id="@id/list_adapter_sub_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+		</LinearLayout>
+	</LinearLayout>
+	<FrameLayout android:background="@color/list_adapter_divider" android:layout_width="fill_parent" android:layout_height="2.0px" />
+</LinearLayout>

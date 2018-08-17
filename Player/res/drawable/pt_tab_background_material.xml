@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_enabled="false">
+		<bitmap android:src="@drawable/pt_tab_unselected_mtrl_light_alpha" android:alpha="?android:disabledAlpha" />
+	</item>
+	<item android:state_focused="true" android:state_enabled="true">
+		<bitmap android:src="@drawable/pt_tab_unselected_mtrl_light_alpha" android:tint="@color/pt_tab_bg_preesd" />
+	</item>
+	<item android:state_pressed="true">
+		<bitmap android:src="@drawable/pt_tab_unselected_mtrl_light_alpha" android:tint="@color/pt_tab_bg_preesd" />
+	</item>
+	<item>
+		<bitmap android:src="@drawable/pt_tab_unselected_mtrl_light_alpha" />
+	</item>
+</selector>

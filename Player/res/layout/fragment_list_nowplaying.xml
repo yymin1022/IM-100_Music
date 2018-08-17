@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/list_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/nowplaying_title_layer" android:paddingLeft="12.0dip" android:paddingTop="25.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/list_nowplaying_title_layer_height">
+		<TextView android:textSize="13.0sp" android:textColor="@color/list_nowplaying_header_title_color" android:id="@id/nowplaying_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/title_nowplaying_list" android:layout_weight="1.0" />
+		<ImageButton android:id="@id/add_to_nowplaying_btn" android:background="@drawable/translucent_background" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="17.0dip" />
+		<ImageButton android:id="@id/nowplaying_menu_btn" android:background="@drawable/translucent_background" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+	</LinearLayout>
+	<LinearLayout android:background="@color/list_nowplaying_header_divider_color" android:layout_width="2.0px" android:layout_height="wrap_content" />
+	<include layout="@layout/fragment_list_nowplaying_tip_rearrange" />
+	<com.pantech.app.music.list.component.view.ArrangeListView android:id="@id/skylistview" style="@style/ListViewStyle" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="seek_slider_side_gapsize">10.0dip</dimen>
+<dimen name="vertical_seekbar_background_width">3.0dip</dimen>
+<dimen name="vertical_seekbar_forground_width">3.0dip</dimen>
+<dimen name="vertical_seekbar_thumboffset">7.0dip</dimen>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_window_focused="false" android:state_enabled="true" android:drawable="@drawable/pt_btn_arrow_right_normal_mtrl_light" />
+	<item android:state_window_focused="false" android:state_enabled="false" android:drawable="@drawable/pt_btn_arrow_right_disabled_mtrl_light" />
+	<item android:state_pressed="true" android:drawable="@drawable/pt_btn_arrow_right_pressed_mtrl_light" />
+	<item android:state_focused="true" android:state_enabled="true" android:drawable="@drawable/pt_btn_arrow_right_focused_mtrl_light" />
+	<item android:state_enabled="true" android:drawable="@drawable/pt_btn_arrow_right_normal_mtrl_light" />
+	<item android:state_focused="true" android:drawable="@drawable/pt_btn_arrow_right_disabled_foc_mtrl_light" />
+	<item android:drawable="@drawable/pt_btn_arrow_right_disabled_mtrl_light" />
+</selector>

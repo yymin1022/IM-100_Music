@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="30.0dip" android:paddingRight="35.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+	<LinearLayout style="@style/SeekbarDrawableLayout_Landscape">
+		<SeekBar android:id="@id/eq_slider" android:background="@color/translucent_bg" android:rotation="-90.0" style="@style/SeekbarFrontLayout_Landscape" />
+	</LinearLayout>
+	<LinearLayout android:orientation="vertical" android:id="@id/text_group" style="@style/FrequencyTextLayout_Landscape">
+		<TextView android:textSize="17.0sp" android:id="@id/text_eq_band" style="@style/FrequencyTextView_EQBand" />
+		<TextView android:textSize="13.0sp" android:id="@id/text_eq_band_unit" android:layout_marginBottom="55.0px" style="@style/FrequencyTextView_EQBand_Unit" />
+	</LinearLayout>
+</LinearLayout>

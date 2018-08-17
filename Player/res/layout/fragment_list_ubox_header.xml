@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/uboxstore_btn_layout" style="@style/UPlusBoxStoreLayout">
+	<LinearLayout android:id="@id/uboxstore_btn" style="@style/UPlusBoxStoreBtn">
+		<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+			<TextView android:id="@id/uboxstore_text" android:text="U+Box Music Store" style="@style/UPlusBoxStoreText" />
+			<ImageView android:src="@drawable/icon_u_box_stroeview" android:layout_toLeftOf="@id/uboxstore_text" style="@style/UPlusBoxStoreImage" />
+		</RelativeLayout>
+	</LinearLayout>
+	<View style="@style/UPlusBoxStoreDivider" />
+</LinearLayout>

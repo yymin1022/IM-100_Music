@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="@color/pt_btn_highlight_material">
+	<item android:drawable="@drawable/pt_btn_default_dialog_background_mtrl" />
+</ripple>

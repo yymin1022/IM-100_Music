@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/ListItemLayout">
+	<RelativeLayout android:gravity="center_vertical" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+		<LinearLayout android:id="@id/music_picker_btn_layout" android:background="@drawable/picker_button_image_bg" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="7.0dip">
+			<ImageView android:layout_gravity="center" android:id="@id/imagebutton" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginLeft="7.0dip" />
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/PickerListTextPaddingLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/music_picker_btn_layout" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true">
+			<TextView android:textSize="17.0sp" android:ellipsize="end" android:gravity="center|left" android:id="@id/line1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+			<TextView android:textSize="13.0sp" android:ellipsize="end" android:gravity="center|left" android:id="@id/line2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+		</LinearLayout>
+	</RelativeLayout>
+</LinearLayout>

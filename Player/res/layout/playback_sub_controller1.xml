@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="97.0dip">
+	<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="97.0dip" android:layout_alignParentBottom="true" android:paddingStart="0.0dip" android:paddingEnd="13.0dip" android:layout_alignParentEnd="true">
+		<ImageButton android:id="@id/nowplay_button" android:background="@drawable/icon_ripple_effect_45" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/playback_button_tonowplay" android:contentDescription="@string/MusicPlayListShortCut" />
+		<com.pantech.app.music.player.RepeatingImageButton android:id="@id/prev_Button" android:background="@drawable/icon_ripple_effect_45" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/playback_prev" android:layout_marginStart="15.0dip" />
+		<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10.0dip">
+			<ImageButton android:id="@id/playpause_Button" android:background="@drawable/icon_ripple_effect_57" android:layout_width="57.0dip" android:layout_height="57.0dip" android:src="@drawable/playback_play" android:contentDescription="@string/playpausebuttoncontentdescription" android:layout_marginStart="0.0dip" />
+		</RelativeLayout>
+		<com.pantech.app.music.player.RepeatingImageButton android:id="@id/next_Button" android:background="@drawable/icon_ripple_effect_45" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/playback_next" android:layout_marginStart="10.0dip" />
+	</LinearLayout>
+</RelativeLayout>

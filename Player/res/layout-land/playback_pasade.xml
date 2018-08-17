@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:orientation="horizontal" android:id="@id/dummy_focus" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" />
+	<SurfaceView android:id="@id/motion_preview" android:layout_width="1.0px" android:layout_height="1.0px" />
+	<RelativeLayout android:id="@id/main_area_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<ImageView android:id="@id/albumart_background" android:background="#ff000000" android:layout_width="640.0dip" android:layout_height="640.0dip" android:layout_marginBottom="-280.0dip" android:scaleType="fitXY" />
+		<android.support.v4.view.ViewPager android:id="@id/albumart_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+		<View android:background="@drawable/scrim_top_xml" android:layout_width="fill_parent" android:layout_height="129.0dip" />
+		<TextView android:textSize="17.0sp" android:textColor="#ffaaaaaa" android:gravity="center" android:id="@id/albumart_ready_text" android:background="#ff1f1f1f" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/playback_ready_for_nowplay" />
+		<RelativeLayout android:id="@id/layout_bitrate_preference" android:layout_width="239.0dip" android:layout_height="264.0dip" android:layout_centerHorizontal="true">
+			<ImageButton android:id="@id/track_preference" android:background="@drawable/icon_ripple_effect_32" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:src="@drawable/playback_button_favorite_1" android:contentDescription="@string/Rating" android:layout_marginEnd="3.0dip" android:layout_alignParentEnd="true" />
+		</RelativeLayout>
+		<include android:id="@id/music_lyrics_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="265.0dip" layout="@layout/playback_sub_lyrics" />
+		<ImageView android:id="@id/image_bitrate" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/image_bitrate_top_margin_landscape" android:contentDescription="@string/BitRate" android:layout_marginStart="53.0dip" />
+		<RelativeLayout android:id="@id/playback_nowplaying" android:background="#aa000000" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<RelativeLayout android:id="@id/fragment_nowplaying" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="63.0dip" />
+		</RelativeLayout>
+		<include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="70.0dip" layout="@layout/playback_sub_nocontent" />
+	</RelativeLayout>
+	<RelativeLayout android:id="@id/Playback_controller_bg" android:background="#ff101010" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_alignParentBottom="true" />
+	<include android:id="@id/playback_trackinfo" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginBottom="-10.0dip" android:layout_alignParentBottom="true" layout="@layout/playback_sub_trackinfo" />
+	<include android:id="@id/playback_controller1" android:layout_width="fill_parent" android:layout_height="63.0dip" android:layout_alignParentBottom="true" layout="@layout/playback_sub_controller1" />
+	<include android:layout_width="174.0dip" android:layout_height="301.0dip" android:layout_marginTop="28.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" layout="@layout/playback_sub_menu" />
+	<include android:layout_width="35.0dip" android:layout_height="222.0dip" android:layout_marginTop="28.0dip" android:layout_marginStart="11.0dip" layout="@layout/custom_volume_panel" />
+	<include android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/list_actionmode_command_height" android:layout_alignParentBottom="true" layout="@layout/list_activity_actionmode_command" />
+	<include android:id="@id/playback_bubbletip_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/activity_detail_controller_help_preview_case1" />
+</RelativeLayout>

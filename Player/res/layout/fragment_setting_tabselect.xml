@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.pantech.app.music.list.component.view.ArrangeListViewExt android:id="@id/skylistview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/pt_popup_divider_holo_dark" />
+</LinearLayout>

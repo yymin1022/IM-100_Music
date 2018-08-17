@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="true" android:drawable="@drawable/translucent_background" />
+	<item android:state_checked="true" android:state_selected="true" android:drawable="@drawable/list_adapterview_grid_title_background_fous_selected" />
+	<item android:state_checked="false" android:state_selected="true" android:drawable="@drawable/list_adapterview_grid_title_background_focused" />
+	<item android:state_checked="true" android:drawable="@drawable/list_adapterview_grid_background_select" />
+	<item android:drawable="@drawable/list_adapterview_grid_title_background_normal" />
+</selector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	<View android:gravity="center" android:layout_gravity="center" android:background="@drawable/pt_popup_sort_selection" android:layout_width="wrap_content" android:layout_height="60.0dip" />
+	<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<com.pantech.app.music.view.SkyWheelSortingNumberPicker android:id="@id/main" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/ScrollingNumberPicker" />
+		<com.pantech.app.music.view.SkyWheelSortingNumberPicker android:id="@id/sub" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/ScrollingNumberPicker" />
+	</LinearLayout>
+</FrameLayout>

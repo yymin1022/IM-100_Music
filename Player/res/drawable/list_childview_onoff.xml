@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res/com.pantech.app.music">
+	<item android:state_focused="true" android:state_enabled="false" android:state_checked="false" android:drawable="@drawable/pt_btn_toggle_off_holo_disabled_focused" />
+	<item android:state_enabled="false" android:state_checked="false" android:drawable="@drawable/pt_btn_toggle_off_holo_disabled" />
+	<item android:state_focused="true" android:state_checked="false" android:drawable="@drawable/pt_btn_toggle_off_holo_focused" />
+	<item android:state_checked="false" android:state_pressed="true" android:drawable="@drawable/pt_btn_toggle_off_holo_pressed_000" />
+	<item android:state_checked="false" android:drawable="@drawable/pt_btn_toggle_off_holo_normal" />
+	<item android:state_focused="true" android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/pt_btn_toggle_on_holo_disabled_focused" />
+	<item android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/pt_btn_toggle_on_holo_disabled" />
+	<item android:state_focused="true" android:state_checked="true" android:drawable="@drawable/pt_btn_toggle_on_holo_focused" />
+	<item android:state_checked="true" android:state_pressed="true" android:drawable="@drawable/pt_btn_toggle_on_holo_pressed_000" />
+	<item android:state_checked="true" android:drawable="@drawable/pt_btn_toggle_on_holo_normal" />
+</selector>

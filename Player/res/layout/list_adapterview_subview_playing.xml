@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.pantech.app.music.list.component.view.AnimImageView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/icon_playing" android:visibility="gone" style="@style/ListNowPlayingAnimStyle" />

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.pantech.app.music.list.component.view.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/listview_adapterview_albumart_2line_exp" android:paddingRight="0.0dip" style="@style/ListItemLayoutIncludeAlbumart">
+	<com.pantech.app.music.list.component.view.CheckableImageView android:id="@id/main_icon" android:layout_marginRight="9.0dip" style="@style/ListAlumartIconStyle" />
+	<include layout="@layout/list_adapterview_subview_playing" />
+	<include layout="@layout/list_adapterview_subview_2line_text" />
+	<include layout="@layout/list_adapterview_subview_expand" />
+</com.pantech.app.music.list.component.view.CheckableLinearLayout>

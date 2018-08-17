@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="PropertyCols"><item>PropertyName</item><item>PropertyValue</item></string-array>
+<string-array name="drmserverlist"><item>온라인스토어 서버</item><item>테스트 서버</item><item>검수 서버</item></string-array>
+<string-array name="pref_auto_stop_titles"><item>설정 안 함</item><item>10분 후 종료</item><item>20분 후 종료</item><item>30분 후 종료</item><item>1시간 후 종료</item></string-array>
+<string-array name="pref_auto_stop_values"><item>0</item><item>10</item><item>20</item><item>30</item><item>60</item></string-array>
+<string-array name="pref_category_titles"><item>@string/Songs</item><item>@string/Albums</item><item>@string/Artists</item><item>@string/Genre</item><item>@string/folder</item></string-array>
+<string-array name="pref_category_values"><item>0</item><item>1</item><item>2</item><item>3</item><item>4</item></string-array>
+</resources>

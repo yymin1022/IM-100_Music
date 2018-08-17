@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:paddingMode="nest">
+	<item>
+		<ripple android:color="@color/pt_tab_highlight_material">
+			<item android:drawable="@drawable/pt_tab_background_material" android:bottom="3.0dip" />
+		</ripple>
+	</item>
+	<item android:gravity="bottom" android:bottom="1.0dip">
+		<shape android:tint="?colorControlActivated" android:shape="rectangle">
+			<size android:height="2.0dip" />
+			<solid android:color="@color/tab_indicator_material" />
+		</shape>
+	</item>
+</layer-list>

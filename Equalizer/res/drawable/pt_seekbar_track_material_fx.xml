@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:gravity="fill_horizontal|center" android:id="@android:id/background">
+		<bitmap android:src="@drawable/pt_scrubber_track_holo_light" />
+	</item>
+	<item android:gravity="fill_horizontal|center" android:id="@android:id/progress">
+		<scale android:scaleWidth="100%">
+			<selector>
+				<item android:state_enabled="false">
+					<bitmap android:src="@drawable/pt_scrubber_primary_holo_light" android:tint="@color/pt_white_disabled_material" />
+				</item>
+				<item>
+					<bitmap android:src="@drawable/pt_scrubber_primary_holo_light" />
+				</item>
+			</selector>
+		</scale>
+	</item>
+</layer-list>

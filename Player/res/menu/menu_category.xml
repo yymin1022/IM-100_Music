@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@id/action_mode_select_song" android:title="@string/Songs" />
+	<item android:id="@id/action_mode_select_album" android:title="@string/Albums" />
+	<item android:id="@id/action_mode_select_artist" android:title="@string/Artists" />
+	<item android:id="@id/action_mode_select_folder" android:title="@string/folder" />
+</menu>

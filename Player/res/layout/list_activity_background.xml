@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<ImageView android:id="@id/list_activity_background_blur" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/Add" />
+	<FrameLayout android:id="@id/list_activity_background_dim" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

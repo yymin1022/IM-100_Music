@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/white_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<include layout="@layout/property_list_header" />
+	<LinearLayout android:background="@drawable/pt_list_divider_holo_light" android:layout_width="fill_parent" android:layout_height="@dimen/ListViewDividerHeight" />
+	<ListView android:id="@id/properties_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

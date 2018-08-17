@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<ScrollView android:orientation="vertical" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<LinearLayout android:orientation="vertical" android:paddingLeft="14.0dip" android:paddingTop="14.0dip" android:paddingRight="14.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<TextView android:id="@id/eqsetting_equalizer_text" android:layout_marginBottom="3.0dip" android:text="@string/SettingEqEqualizer" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/MainText_Layout" />
+				<TextView android:text="@string/DescriptionEqualizer" style="@style/SubText_Layout" />
+				<com.pantech.app.musicfx.view.EventSpinner android:id="@id/eqsetting_equalizer_button" android:focusable="false" style="@style/Spinner_Layout" />
+			</LinearLayout>
+			<LinearLayout style="@style/Line_Divider_Layout" />
+			<LinearLayout android:orientation="vertical" android:paddingTop="13.0dip" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<RelativeLayout android:gravity="center_vertical" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<Switch android:id="@id/eqsetting_bassboost_button" style="@style/Switch_Layout" />
+					<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/eqsetting_bassboost_button" android:layout_alignParentLeft="true">
+						<TextView android:id="@id/eqsetting_bassboost_text" android:layout_marginBottom="3.0dip" android:text="@string/SettingEqBassBoost" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/MainText_Layout" />
+						<TextView android:id="@id/eqsetting_bassboost_text_sub" android:text="@string/DescriptionBassBoost" android:layout_alignParentLeft="true" style="@style/SubText_Layout" />
+					</LinearLayout>
+				</RelativeLayout>
+				<SeekBar android:id="@id/eqsetting_bassboost_slide" style="@style/Horizontal_Seekbar_Layout" />
+			</LinearLayout>
+			<LinearLayout style="@style/Line_Divider_Layout" />
+			<LinearLayout android:orientation="vertical" android:id="@id/eqsetting_trebleenhance_layout" android:paddingTop="13.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<RelativeLayout android:gravity="center_vertical" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<Switch android:id="@id/eqsetting_trebleenhance_button" style="@style/Switch_Layout" />
+					<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/eqsetting_trebleenhance_button" android:layout_alignParentLeft="true">
+						<TextView android:id="@id/eqsetting_trebleenhance_text" android:layout_marginBottom="3.0dip" android:text="@string/SettingEqTrebleEnhance" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/MainText_Layout" />
+						<TextView android:text="@string/DescriptionTrebleEnhance" style="@style/SubText_Layout" />
+					</LinearLayout>
+				</RelativeLayout>
+				<SeekBar android:id="@id/eqsetting_trebleenhance_slide" style="@style/Horizontal_Seekbar_Layout" />
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical" android:paddingTop="13.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<RelativeLayout android:gravity="center_vertical" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<Switch android:id="@id/eqsetting_virtualizer_button" style="@style/Switch_Layout" />
+					<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/eqsetting_virtualizer_button" android:layout_alignParentLeft="true">
+						<TextView android:id="@id/eqsetting_virtualizer_text" android:layout_marginBottom="3.0dip" android:text="@string/SettingEqVirtualizer" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/MainText_Layout" />
+						<TextView android:id="@id/eqsetting_virtualizer_text_sub" android:text="@string/DescriptionVitualizer" style="@style/SubText_Layout" />
+					</LinearLayout>
+				</RelativeLayout>
+				<SeekBar android:id="@id/eqsetting_virtualizer_slide" style="@style/Horizontal_Seekbar_Layout" />
+			</LinearLayout>
+			<LinearLayout style="@style/Line_Divider_Layout" />
+			<LinearLayout android:orientation="vertical" android:paddingLeft="14.0dip" android:paddingTop="13.0dip" android:paddingRight="14.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<TextView android:id="@id/eqsetting_presetReverb_text" android:layout_marginBottom="3.0dip" android:text="@string/SettingEqPresetReverb" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/MainText_Layout" />
+				<TextView android:text="@string/DescriptionReverb" style="@style/SubText_Layout" />
+				<Spinner android:id="@id/eqsetting_presetReverb_spinner" android:focusable="false" style="@style/Spinner_Layout" />
+			</LinearLayout>
+			<LinearLayout style="@style/Line_Divider_Layout" />
+			<LinearLayout android:orientation="vertical" android:id="@id/eqsetting_loudnessmaximizer_layout" android:paddingTop="13.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<RelativeLayout android:gravity="center_vertical" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<Switch android:id="@id/eqsetting_loudnessmaximizer_button" style="@style/Switch_Layout" />
+					<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/eqsetting_loudnessmaximizer_button" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+						<TextView android:id="@id/eqsetting_loudnessmaximizer_text" android:layout_marginBottom="3.0dip" android:text="@string/SettingEqLoudnessMaximizer" style="@style/MainText_Layout" />
+						<TextView android:text="@string/DescriptionLoudnessMaximizer" style="@style/SubText_With_Button_Layout" />
+					</LinearLayout>
+				</RelativeLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

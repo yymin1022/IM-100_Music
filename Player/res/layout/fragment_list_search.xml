@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/list_layout" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.pantech.app.music.list.component.view.MusicListView android:id="@id/skylistview" style="@style/ListViewStyle" />
+	<com.pantech.app.music.list.component.view.MusicListView android:id="@id/search_history_listview" android:visibility="gone" style="@style/ListViewStyle" />
+	<include layout="@layout/fragment_subview_empty_page" />
+</FrameLayout>

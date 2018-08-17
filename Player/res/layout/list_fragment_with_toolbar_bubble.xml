@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/list_fragment_main_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<android.support.v7.widget.Toolbar android:id="@id/list_fragment_toolbar" android:background="@color/listStatusBar" android:visibility="invisible" android:transitionName="@string/transition_toolbar" style="@style/ListToolbarStyle" />
+	<RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+		<android.support.v7.widget.RecyclerView android:id="@id/recyclerView" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:transitionName="@string/transition_recyclerView" />
+		<include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/list_help_guide" />
+		<include android:id="@id/list_fragment_layout_no_content" layout="@layout/list_no_content_1line_text" />
+	</RelativeLayout>
+</LinearLayout>

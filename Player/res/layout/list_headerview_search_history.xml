@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/list_search_history_recent_header_background" android:clickable="true" android:layout_width="fill_parent" android:layout_height="28.0dip">
+	<TextView android:textSize="@dimen/ListSearchHistoryRecentTextSize" android:textColor="@color/list_search_history_recent_header_textcolor" android:ellipsize="end" android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/list_search_hisotry_recent" android:singleLine="true" />
+</LinearLayout>

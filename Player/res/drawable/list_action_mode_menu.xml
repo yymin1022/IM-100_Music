@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="true" android:drawable="@drawable/btn_confirm_arrow_down_nor_light_alpha" />
+	<item android:drawable="@drawable/btn_confirm_arrow_down_nor_light_alpha" android:state_activated="true" />
+	<item android:drawable="@drawable/btn_confirm_arrow_up_nor_light_alpha" />
+</selector>

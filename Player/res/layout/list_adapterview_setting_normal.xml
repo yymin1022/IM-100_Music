@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/list_setting_layer" android:background="@drawable/list_adapter_bg" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:focusable="true" style="@style/ListItemLayoutSetting">
+	<TextView android:textSize="@dimen/ListMainTextFontSize" android:textColor="@color/list_adapterview_textcolor_main_whitetheme" android:ellipsize="end" android:gravity="center|left" android:id="@id/list_setting_main_text" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:singleLine="true" />
+	<TextView android:textSize="@dimen/ListSubTextFontSize" android:textColor="@color/list_adapterview_textcolor_sub_whitetheme" android:ellipsize="end" android:gravity="center|left" android:id="@id/list_setting_sub_text" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

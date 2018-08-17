@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/music_main_layer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:background="@color/list_tab_divider" android:layout_width="fill_parent" android:layout_height="2.0px" />
+	<com.pantech.app.music.list.component.view.ScrollLockViewPager android:id="@id/music_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+	<include layout="@layout/list_activity_select_picker_command" />
+</LinearLayout>

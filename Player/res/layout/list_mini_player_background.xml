@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="-360.0dip">
+	<FrameLayout android:id="@id/list_mini_player_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	<ImageView android:id="@id/list_mini_player_background_effect" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="1.0dip" android:src="@drawable/shape_circle" android:scaleType="centerCrop" android:layout_centerInParent="true" android:contentDescription="@string/Add" />
+</RelativeLayout>

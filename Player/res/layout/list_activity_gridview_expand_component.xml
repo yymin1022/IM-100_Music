@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent">
+	<ImageView android:layout_gravity="center|left" android:id="@id/closebutton_sublist" android:layout_width="@dimen/SeperatorCloseButtonWidth" android:layout_height="@dimen/SeperatorCloseButtonHeight" android:src="@drawable/list_activity_landscape_collapse_btn" android:scaleType="fitXY" />
+</FrameLayout>

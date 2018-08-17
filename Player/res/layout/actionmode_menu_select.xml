@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+	<Button android:textSize="@dimen/ActionbarTextSize" android:textColor="@color/list_actionmode_button_textcolor" android:gravity="center|left" android:id="@id/selection_menu" android:background="@drawable/ic_actionbar_dropdown_music_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<plurals name="addtocart_result_success"><item quantity="other">%1$s 에 %2$d 곡이 추가되었습니다.</item><item quantity="zero">%1$s 에 %2$d 곡이 추가되었습니다.</item><item quantity="one">%1$s 에 %2$d 곡이 추가되었습니다.</item></plurals>
+<plurals name="addtocart_result_success_duplication"><item quantity="other">%1$s 에 중복된 곡을 제외한 %2$d 곡이 추가되었습니다.</item><item quantity="zero">%1$s 에 중복된 곡을 제외한 %2$d 곡이 추가되었습니다.</item><item quantity="one">%1$s 에 중복된 곡을 제외한 %2$d 곡이 추가되었습니다.</item></plurals>
+<plurals name="count_of_albums"><item quantity="other">앨범 %1d개</item><item quantity="zero">앨범 %1d개</item><item quantity="one">앨범 %1d개</item></plurals>
+<plurals name="count_of_artist_songs"><item quantity="other">총 %1d곡</item><item quantity="zero">총 %1d곡</item><item quantity="one">총 %1d곡</item></plurals>
+<plurals name="count_of_songs"><item quantity="other">%1d곡</item><item quantity="zero">%1d곡</item><item quantity="one">%1d곡</item></plurals>
+<plurals name="number_of_items_selected"><item quantity="other">%1$d개 선택됨</item><item quantity="zero">%1$d개 선택됨</item><item quantity="one">%1$d개 선택됨</item></plurals>
+<plurals name="song_added_to_playlist"><item quantity="other">%1$s에 %2$d곡이 추가되었습니다.</item><item quantity="one">%1$s에 %2$d곡이 추가되었습니다.</item></plurals>
+<plurals name="song_added_to_playlist_except_duplicated"><item quantity="other">%1$s에 중복된 %2$d곡을 제외한 %3$d곡이 추가되었습니다.</item><item quantity="one">%1$s에 중복된 %2$d곡을 제외한 %3$d곡이 추가되었습니다.</item></plurals>
+<plurals name="song_deleted"><item quantity="other">%1$d곡이 삭제되었습니다.</item><item quantity="one">%1$d곡이 삭제되었습니다.</item></plurals>
+<plurals name="song_deleted_except_duplicated"><item quantity="other">%1$d곡을 제외한 %2$d곡이 삭제되었습니다.</item><item quantity="one">%1$d곡을 제외한 %2$d곡이 삭제되었습니다.</item></plurals>
+<plurals name="song_removed_from_playlist"><item quantity="other">%1$s에서 %2$d곡이 제거되었습니다.</item><item quantity="one">%1$s에서 %2$d곡이 제거되었습니다.</item></plurals>
+<plurals name="song_removed_from_playlist_except_fail"><item quantity="other">%1$s에서 %2$d곡을 제외한 %3$d곡이 제거되었습니다.</item><item quantity="one">%1$s에서 %2$d곡을 제외한 %3$d곡이 제거되었습니다.</item></plurals>
+</resources>

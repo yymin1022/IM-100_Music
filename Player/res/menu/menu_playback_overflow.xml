@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@id/menu_addtoplaylist" android:title="@string/playback_menu_addtoplaylist" />
+	<item android:id="@id/menu_ringtone" android:title="@string/playback_menu_ringtone" />
+	<item android:icon="@drawable/ic_menu_find_normal_light" android:id="@id/menu_search" android:title="@string/playback_menu_search" />
+	<item android:id="@id/menu_delete" android:title="@string/MenuDelete" />
+	<item android:id="@id/menu_share" android:title="@string/QMenuShare" />
+	<item android:id="@id/menu_goto_youtube" android:title="@string/QMenuShareOnlineService" />
+	<item android:id="@id/menu_properties" android:title="@string/playback_menu_properties" />
+	<item android:id="@id/menu_settings" android:title="@string/playback_menu_settings" />
+</menu>

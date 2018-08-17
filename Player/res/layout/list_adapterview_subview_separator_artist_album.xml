@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/ListViewSeperatorTextMarginLeft" style="@style/ListIndexedSeperatorLayoutStyle">
+	<TextView android:textColor="@color/list_adapterview_separator_text_color" android:gravity="center_vertical" android:id="@id/seperator_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/ListIndexedSeperatorTextStyle" />
+	<Button android:textSize="14.0dip" android:textColor="@color/list_album_headerview_playall_textcolor" android:gravity="center" android:id="@id/seperator_album_play" android:layout_width="77.0dip" android:layout_height="23.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="8.0dip" android:text="@string/separatorPlayAlbum" style="@style/ListIndexedSeperatorTextStyle" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<com.pantech.app.music.list.component.view.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/listview_adapterview_albumart_artist" android:paddingRight="12.0dip" android:minHeight="@dimen/ListViewArtistAlbumartHeight" style="@style/ListItemLayoutIncludeAlbumart">
+	<FrameLayout android:id="@id/artist_mainicon_layer" android:background="@drawable/music_albumcover_bg" android:duplicateParentState="true" android:layout_width="@dimen/ListViewArtistAlbumartWidth" android:layout_height="@dimen/ListViewArtistAlbumartHeight" android:layout_marginRight="9.0dip">
+		<FrameLayout android:layout_gravity="center|left" android:id="@id/artist_mainicon" android:paddingLeft="9.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="@dimen/ListViewArtistInnerAlbumartWidth">
+			<com.pantech.app.music.list.component.view.CheckableImageView android:id="@id/main_icon" android:layout_width="@dimen/ListViewArtistInnerAlbumartWidth" android:layout_height="@dimen/ListViewArtistInnerAlbumartHeight" android:scaleType="fitXY" />
+			<com.pantech.app.music.list.component.view.CheckableImageView android:duplicateParentState="true" android:layout_width="@dimen/ListViewArtistInnerAlbumartWidth" android:layout_height="@dimen/ListViewArtistInnerAlbumartHeight" android:scaleType="fitXY" />
+			<ImageView android:id="@id/main_icon_multiple" android:layout_width="wrap_content" android:layout_height="@dimen/ListViewArtistInnerAlbumartHeight" android:src="@drawable/translucent_background" />
+		</FrameLayout>
+		<ImageView android:id="@id/artist_checkicon" android:visibility="gone" android:layout_width="@dimen/ListViewArtistAlbumartWidth" android:layout_height="@dimen/ListViewArtistAlbumartHeight" android:src="@drawable/select_check_box02" />
+	</FrameLayout>
+	<include layout="@layout/list_adapterview_subview_playing" />
+	<include layout="@layout/list_adapterview_subview_2line_text" />
+</com.pantech.app.music.list.component.view.CheckableLinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/music_main_layer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<include layout="@layout/list_activity_background" />
+	<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<android.support.v7.widget.Toolbar android:id="@id/list_activity_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:titleTextColor="@android:color/white" />
+		<com.pantech.app.music.component.ExtendViewPager android:id="@id/music_pager" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" />
+		<include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/list_action_mode_bottom" />
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_enabled="false">
+		<bitmap android:src="@drawable/pt_ic_clear_search_api_disabled_holo_light" />
+	</item>
+	<item android:state_focused="true">
+		<bitmap android:src="@drawable/pt_ic_clear_search_api_foc_holo_light" />
+	</item>
+	<item android:state_pressed="true">
+		<bitmap android:src="@drawable/pt_ic_clear_search_api_pre_holo_light" />
+	</item>
+	<item>
+		<bitmap android:src="@drawable/pt_ic_clear_search_api_nor_holo_light" />
+	</item>
+</selector>

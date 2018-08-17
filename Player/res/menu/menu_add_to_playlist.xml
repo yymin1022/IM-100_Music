@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:icon="@drawable/list_ic_actionbar_add" android:id="@id/action_add_to_playlist" android:title="@string/Add" app:showAsAction="never" />
+</menu>

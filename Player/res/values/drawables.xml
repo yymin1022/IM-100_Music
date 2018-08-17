@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<item type="drawable" name="expadable_child_background">@color/listview_expanded_childview_bg_color</item>
+<item type="drawable" name="grid_header_info_backgroud_normal">@color/group_header_info_backgroud_normal_color</item>
+<item type="drawable" name="list_adapterview_background_longpress">@color/list_adapterview_background_longpress</item>
+<item type="drawable" name="list_adapterview_background_press">@color/list_adapterview_background_press</item>
+<item type="drawable" name="list_adapterview_background_select">@color/list_adapterview_background_select</item>
+<item type="drawable" name="list_adapterview_background_select_alpha">@color/list_adapterview_background_select_alpha</item>
+<item type="drawable" name="list_adapterview_grid_background_longpress">@color/list_adapterview_grid_background_longpress</item>
+<item type="drawable" name="list_adapterview_grid_background_press">@color/list_adapterview_grid_background_press</item>
+<item type="drawable" name="list_adapterview_grid_background_select">@color/list_adapterview_grid_background_select</item>
+<item type="drawable" name="list_adapterview_grid_title_background_normal">@color/list_adapterview_grid_title_background_normal</item>
+<item type="drawable" name="list_adapterview_seperater_background_normal">@color/list_adapterview_seperater_background_normal</item>
+<item type="drawable" name="list_background">@color/list_background</item>
+<item type="drawable" name="list_popup_adapterview_seperater_background_normal">@color/list_popup_adapterview_seperater_background_normal</item>
+<item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+<item type="drawable" name="pt_screen_background_dark">#ff060606</item>
+<item type="drawable" name="pt_window_background_mtr_dark">#fffafafa</item>
+<item type="drawable" name="translucent_background">#00000000</item>
+</resources>

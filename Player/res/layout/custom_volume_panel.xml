@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/custom_volume_panel" android:layout_width="35.0dip" android:layout_height="222.0dip">
+	<ImageButton android:id="@id/volume_icon_button" android:background="@drawable/icon_ripple_effect_32" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/playback_button_volume_speaker" android:contentDescription="@string/VolumeSetting" />
+	<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/volume_control_layout" android:background="@drawable/volume_popup_bg" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="184.0dip" android:layout_marginTop="6.0dip">
+		<TextView android:textSize="14.0sp" android:typeface="sans" android:textColor="@color/colorWhite100" android:id="@id/volume_step_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" />
+		<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="-100.0dip" android:layout_marginRight="-100.0dip">
+			<SeekBar android:id="@id/volume_seekbar" android:layout_width="139.0dip" android:layout_height="wrap_content" android:maxHeight="3.0dip" android:progressDrawable="@drawable/playback_volume_gage" android:minHeight="3.0dip" android:thumb="@drawable/playback_volume_thumb" android:thumbOffset="9.5dip" android:layout_centerInParent="true" android:rotation="270.0" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" android:layout_marginStart="-3.0dip" android:layout_marginEnd="-5.0dip" style="@style/PlaybackSeekbar" />
+		</RelativeLayout>
+	</LinearLayout>
+</LinearLayout>

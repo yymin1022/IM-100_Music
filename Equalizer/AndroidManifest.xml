@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="274" android:versionName="2.7.4" package="com.pantech.app.musicfx" platformBuildVersionCode="23" platformBuildVersionName="6.0-LP_50-EF71_MM">
+	<uses-sdk android:minSdkVersion="23" android:targetSdkVersion="23" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" android:protectionLevel="signatureOrSystem" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+	<application android:allowBackup="true" android:hardwareAccelerated="true" android:icon="@drawable/icon_application" android:label="@string/app_name" android:name="com.pantech.app.musicfx.common.MusicFXApplication" android:supportsRtl="true" android:taskAffinity="com.pantech.app.musicfx">
+		<service android:name="com.pantech.app.musicfx.audiofx.AudioEffectManageService" />
+		<receiver android:name="com.pantech.app.musicfx.audiofx.AudioEffectReceiver$OpenCloseReceiver">
+			<intent-filter>
+				<action android:name="android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION" />
+				<action android:name="android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION" />
+				<action android:name="android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION_OEM" />
+				<action android:name="android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION_OEM" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.pantech.app.musicfx.audiofx.AudioEffectReceiver$MovieEffectReceiver">
+			<intent-filter>
+				<action android:name="android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION_OEM_MOVIE" />
+				<action android:name="android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION_OEM_MOVIE" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name="com.pantech.app.musicfx.audiofx.AudioEffectReceiver$BootCompletedReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</receiver>
+		<activity android:configChanges="orientation|screenSize" android:label="AudioEffectPanel" android:name="com.pantech.app.musicfx.panel.AudioEffectEQPanel" android:theme="@style/AppCompatTheme">
+			<intent-filter>
+				<action android:name="com.pantech.musicfx.audiofx.action.START_EQ_PANEL" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity android:configChanges="orientation|screenSize" android:name="com.pantech.app.musicfx.panel.AudioEffectSettingPanel">
+			<intent-filter>
+				<action android:name="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL_OEM" />
+				<action android:name="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<receiver android:name="com.pantech.app.musicfx.audiofx.AudioEffectCompatibility$Receiver">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.PACKAGE_ADDED" />
+				<data android:scheme="package" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.PACKAGE_REPLACED" />
+				<data android:scheme="package" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.PACKAGE_REMOVED" />
+				<data android:scheme="package" />
+			</intent-filter>
+		</receiver>
+		<service android:exported="false" android:name="com.pantech.app.musicfx.audiofx.AudioEffectCompatibility$Service" />
+		<activity android:name="com.pantech.app.musicfx.audiofx.AudioEffectCompatibility$Redirector">
+			<intent-filter android:priority="2147483647">
+				<action android:name="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<provider android:authorities="com.pantech.app.musicfx.db.audioeffectprovider" android:exported="true" android:name="com.pantech.app.musicfx.db.AudioEffectProvider" />
+		<activity android:excludeFromRecents="true" android:name="com.pantech.app.musicfx.audiofx.AudioEffectControlPanelPicker" android:theme="@style/Theme.Dialog.ControlPanelPicker.BlackPT" />
+	</application>
+</manifest>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@id/menu_play_tracks" android:title="@string/list_actionmode_command_play" />
+	<item android:id="@id/menu_cart_tracks" android:title="@string/list_actionmode_command_cart" />
+	<item android:id="@id/menu_delete_tracks" android:title="@string/list_actionmode_command_delete" />
+	<item android:id="@id/menu_share" android:title="@string/QMenuShare" />
+	<item android:id="@id/menu_rename_playlist" android:title="@string/QMenuRename" />
+</menu>

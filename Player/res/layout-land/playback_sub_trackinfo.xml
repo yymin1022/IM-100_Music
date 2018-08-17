@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="150.0dip">
+	<RelativeLayout android:background="#ff1a1a1a" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_alignParentBottom="true" />
+	<RelativeLayout android:background="#00000000" android:layout_width="fill_parent" android:layout_height="140.0dip">
+		<RelativeLayout android:id="@id/title_bg_l" android:background="@color/original_playback_title_bg_l" android:layout_width="fill_parent" android:layout_height="33.0dip" android:layout_marginBottom="62.0dip" android:layout_alignParentBottom="true" />
+		<RelativeLayout android:id="@id/ctrl_bg_l" android:background="@color/original_playback_ctr_bg_l" android:clickable="true" android:layout_width="fill_parent" android:layout_height="63.0dip" android:layout_alignParentBottom="true" />
+		<RelativeLayout android:id="@id/trackinfo_layout" android:background="#001a1a1a" android:clickable="true" android:layout_width="fill_parent" android:layout_height="63.0dip" android:layout_alignParentBottom="true">
+			<LinearLayout android:orientation="vertical" android:background="#00000000" android:layout_width="370.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_centerVertical="true" android:paddingStart="16.0dip" android:paddingEnd="0.0dip">
+				<TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:id="@id/track_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+				<TextView android:textSize="13.0sp" android:textColor="#b3ffffff" android:id="@id/track_artist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" />
+			</LinearLayout>
+		</RelativeLayout>
+		<RelativeLayout android:id="@id/playtime_seekbar_layout" android:layout_width="fill_parent" android:layout_height="66.0dip" android:layout_marginLeft="-17.0dip" android:layout_marginRight="-17.0dip" android:layout_marginBottom="27.0dip" android:layout_alignParentBottom="true">
+			<SeekBar android:id="@id/progressSeekBar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxHeight="3.0dip" android:progressDrawable="@drawable/playback_seekbar_gage" android:thumb="@drawable/playback_seekbar_thumb_narrow" android:layout_centerInParent="true" style="@style/PlaybackSeekbar" />
+		</RelativeLayout>
+		<RelativeLayout android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_marginBottom="61.0dip" android:layout_alignParentBottom="true">
+			<LinearLayout android:orientation="horizontal" android:id="@id/expand_seekbar_layout" android:visibility="gone" android:layout_width="700.0dip" android:layout_height="fill_parent">
+				<RelativeLayout android:background="@drawable/playback_seekbar_gage_shape" android:layout_width="674.0dip" android:layout_height="fill_parent" android:layout_marginEnd="-1.0dip" />
+				<RelativeLayout android:background="#00000000" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+			</LinearLayout>
+			<TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/expand_seekbar_text" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:shadowColor="@color/expand_seekbar_textcolor" android:shadowDx="0.0" android:shadowDy="4.0" android:shadowRadius="5.0" android:layout_marginEnd="17.0dip" />
+		</RelativeLayout>
+		<RelativeLayout android:layout_width="fill_parent" android:layout_height="33.0dip" android:layout_marginBottom="62.0dip" android:layout_alignParentBottom="true">
+			<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/playtime_info_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="16.0dip">
+				<TextView android:textSize="13.0sp" android:textColor="@color/playback_currenttime_textcolor" android:id="@id/current_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="3.0dip" />
+				<TextView android:textSize="13.0sp" android:textColor="@color/playback_totaltime_textcolor" android:id="@id/slash" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/playbackslash" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" />
+				<TextView android:textSize="13.0sp" android:textColor="@color/playback_totaltime_textcolor" android:id="@id/total_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="3.0dip" />
+			</LinearLayout>
+			<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/shuffle_repeat_layout" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true">
+				<ImageButton android:id="@id/shuffle_Button" android:background="#00000000" android:layout_width="31.0dip" android:layout_height="31.0dip" android:src="@drawable/playback_shuffle" android:contentDescription="@string/shuffle_all" android:layout_marginStart="10.0dip" />
+				<ImageButton android:id="@id/repeat_Button" android:background="#00000000" android:layout_width="31.0dip" android:layout_height="31.0dip" android:src="@drawable/playback_repeat" android:contentDescription="@string/shuffle_all" android:layout_marginStart="18.0dip" />
+			</LinearLayout>
+		</RelativeLayout>
+	</RelativeLayout>
+</RelativeLayout>

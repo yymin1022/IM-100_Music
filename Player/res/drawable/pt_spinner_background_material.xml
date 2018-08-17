@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="?android:colorControlActivated">
+	<item>
+		<selector>
+			<item android:state_pressed="true">
+				<nine-patch android:src="@drawable/pt_spinner_pressed_holo_light" />
+			</item>
+			<item android:state_focused="true">
+				<nine-patch android:src="@drawable/pt_spinner_focused_holo_light" />
+			</item>
+			<item android:state_enabled="false">
+				<nine-patch android:src="@drawable/pt_spinner_disabled_holo_light" />
+			</item>
+			<item>
+				<nine-patch android:src="@drawable/pt_spinner_default_holo_light" />
+			</item>
+		</selector>
+	</item>
+</ripple>

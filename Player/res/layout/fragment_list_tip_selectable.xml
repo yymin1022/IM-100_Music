@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/list_selectable_tip" android:background="@color/list_tip_rearrange_background" android:layout_width="fill_parent" android:layout_height="54.0dip">
+	<ImageView android:layout_width="@dimen/list_tip_icon_width" android:layout_height="@dimen/list_tip_icon_height" android:layout_marginLeft="16.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/ic_music_tip_arrow" />
+	<TextView android:textSize="@dimen/list_tip_rearrange_textsize" android:textColor="@color/list_tip_rearrange_textcolor" android:ellipsize="end" android:gravity="center|left" android:id="@id/tip_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/list_music_tip_selectable" android:lines="2" android:layout_weight="1.0" />
+	<ImageButton android:id="@id/tip_button" android:background="@drawable/translucent_background" android:layout_width="@dimen/list_tip_icon_width" android:layout_height="@dimen/list_tip_icon_height" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/list_ic_music_tip_exit" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/list_setting_switch_layer" android:background="@drawable/list_adapter_bg" style="@style/ListItemLayoutSetting">
+	<LinearLayout android:gravity="center|left" android:orientation="vertical" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+		<TextView android:textSize="@dimen/ListMainTextFontSize" android:textColor="@color/list_adapterview_textcolor_main_whitetheme" android:ellipsize="end" android:gravity="center|left" android:id="@id/list_setting_main_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:singleLine="true" />
+		<TextView android:textSize="@dimen/ListSubTextFontSize" android:textColor="@color/list_adapterview_textcolor_sub_whitetheme" android:ellipsize="end" android:gravity="center|left" android:id="@id/list_setting_sub_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	</LinearLayout>
+	<Switch android:layout_gravity="center_vertical" android:id="@id/list_setting_switch" android:layout_width="47.0dip" android:layout_height="37.0dip" android:layout_marginLeft="10.0dip" android:checked="false" />
+</LinearLayout>

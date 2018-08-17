@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@color/white_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<ImageView android:id="@id/player_albumart_ex" android:layout_width="92.0dip" android:layout_height="92.0dip" android:layout_margin="12.0dip" android:scaleType="fitXY" android:contentDescription="@string/Information" />
+	<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<RelativeLayout android:layout_width="fill_parent" android:layout_height="65.0dip">
+			<LinearLayout android:orientation="horizontal" android:id="@id/play_control_ex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginRight="12.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+				<ImageView android:id="@id/bt_favorite_ex" android:background="@drawable/bg_ripple_radius_19" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/icon_player_favorite_off" android:contentDescription="@string/Information" />
+				<ImageView android:id="@id/bt_close_ex" android:background="@drawable/bg_ripple_radius_19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:src="@drawable/icon_player_cancel" android:contentDescription="@string/Information" />
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/play_control_ex" android:layout_centerVertical="true">
+				<TextView android:textSize="17.0sp" android:textColor="@color/colorBlack100" android:ellipsize="end" android:id="@id/player_title_ex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+				<TextView android:textSize="13.0sp" android:textColor="@color/colorBlackSub100" android:ellipsize="end" android:id="@id/artist_name_ex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+			</LinearLayout>
+		</RelativeLayout>
+		<LinearLayout android:gravity="center" android:orientation="horizontal" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip">
+			<ImageView android:id="@id/bt_rw_ex" android:background="@drawable/bg_ripple_radius_19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="39.0dip" android:src="@drawable/icon_player_prev" android:contentDescription="@string/Information" />
+			<ImageView android:id="@id/bt_pause_ex" android:background="@drawable/bg_ripple_radius_19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_player_pause" android:contentDescription="@string/Information" />
+			<ImageView android:id="@id/bt_play_ex" android:background="@drawable/bg_ripple_radius_19" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_player_play" android:contentDescription="@string/Information" />
+			<ImageView android:id="@id/bt_ff_ex" android:background="@drawable/bg_ripple_radius_19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="39.0dip" android:src="@drawable/icon_player_next" android:contentDescription="@string/Information" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

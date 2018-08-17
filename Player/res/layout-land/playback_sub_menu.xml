@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="174.0dip" android:layout_height="301.0dip">
+	<RelativeLayout android:id="@id/expand_menu_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	<RelativeLayout android:id="@id/basic_menu_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:orientation="vertical" android:id="@id/basic_items_layout" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="11.0dip" android:layout_alignParentRight="true">
+			<ImageButton android:id="@id/overflow_menu_button" android:background="@drawable/icon_ripple_effect_32" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="0.0dip" android:src="@drawable/overflow_menu_icon" android:contentDescription="@string/list_actionmode_command_menu" />
+			<ImageButton android:id="@id/goto_library_button" android:background="@drawable/icon_ripple_effect_32" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/playback_button_tolibrary" android:contentDescription="@string/goto_list" />
+			<ImageButton android:id="@id/equalizer_btn" android:background="@drawable/icon_ripple_effect_32" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/playback_button_eq_main" android:contentDescription="@string/SettingSubTitleAudioEffect" />
+		</LinearLayout>
+	</RelativeLayout>
+</RelativeLayout>

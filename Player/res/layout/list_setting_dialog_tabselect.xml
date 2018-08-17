@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<CheckBox android:ellipsize="marquee" android:id="@id/tabselect_checkbox" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:checkMark="@drawable/list_childview_onoff" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+	<TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorAlertDialogListItem" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/main_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="9.0dip" android:minHeight="?android:listPreferredItemHeight" android:layout_toRightOf="@id/tabselect_checkbox" />
+	<TextView android:gravity="center_vertical" android:id="@id/sub_text" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_above="@id/main_text" />
+	<ImageView android:id="@id/rearrangeimgview" android:src="@drawable/ic_play_list_rearrange" android:layout_alignParentRight="true" style="@style/RearrangePointButton" />
+</RelativeLayout>

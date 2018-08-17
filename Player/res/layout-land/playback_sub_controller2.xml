@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#50000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="63.0dip">
+	<RelativeLayout android:id="@id/playtime_seekbar_layout" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginLeft="-17.0dip" android:layout_marginTop="-47.0dip" android:layout_marginRight="-17.0dip">
+		<SeekBar android:theme="@android:style/Theme" android:id="@id/progressSeekBar" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxHeight="3.0dip" android:progressDrawable="@drawable/playback_seekbar_gage" android:thumb="@drawable/playback_seekbar_thumb" android:layout_centerInParent="true" style="@style/PlaybackSeekbar" />
+		<RelativeLayout android:background="#00000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	</RelativeLayout>
+	<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/controller_main_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:layout_alignParentRight="true">
+		<RelativeLayout android:background="#ff484848" android:layout_width="2.0px" android:layout_height="36.0dip" />
+		<ImageButton android:id="@id/nowplay_button" android:background="#00000000" android:layout_width="31.0dip" android:layout_height="31.0dip" android:layout_marginLeft="7.0dip" android:src="@drawable/playback_button_tonowplay_mini" android:contentDescription="@string/MusicPlayListShortCut" />
+		<com.pantech.app.music.player.RepeatingImageButton android:id="@id/prev_Button" android:background="#00000000" android:layout_width="31.0dip" android:layout_height="31.0dip" android:layout_marginLeft="20.0dip" android:src="@drawable/list_controller_prev" />
+		<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip">
+			<ImageButton android:id="@id/playpause_Button_bg" android:background="#00000000" android:layout_width="47.0dip" android:layout_height="47.0dip" android:layout_marginLeft="0.0dip" android:src="@drawable/list_controller_play_bg" android:contentDescription="@string/ContentDescription" />
+			<ImageButton android:id="@id/playpause_Button" android:background="#00000000" android:layout_width="47.0dip" android:layout_height="47.0dip" android:layout_marginLeft="0.0dip" android:src="@drawable/list_controller_play" android:contentDescription="@string/ContentDescription" />
+		</RelativeLayout>
+		<com.pantech.app.music.player.RepeatingImageButton android:id="@id/next_Button" android:background="#00000000" android:layout_width="31.0dip" android:layout_height="31.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="21.0dip" android:src="@drawable/list_controller_next" />
+	</LinearLayout>
+	<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="7.0dip" android:layout_toLeftOf="@id/controller_main_layout">
+		<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/controller_info_layout" android:background="@drawable/player_infolayer_bg" android:paddingLeft="15.0dip" android:paddingRight="16.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:id="@id/controller_track_title" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+			<TextView android:textSize="13.0sp" android:textColor="#ff929090" android:id="@id/controller_track_artist" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" />
+		</LinearLayout>
+		<TextView android:textSize="17.0sp" android:textColor="#fff54633" android:gravity="center_vertical" android:id="@id/controller_help_guide" android:background="#ff101010" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="16.0dip" android:text="@string/play_controller_help_guide" android:layout_centerVertical="true" />
+	</RelativeLayout>
+</RelativeLayout>

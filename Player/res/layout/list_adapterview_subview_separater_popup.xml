@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="#ff19253d" android:paddingLeft="17.0dip" android:paddingRight="17.0dip" android:layout_height="28.0dip" style="@style/ListIndexedSeperatorLayoutStyle">
+	<TextView android:textSize="15.0sp" android:textColor="#fff5f5f5" android:id="@id/seperator_text" style="@style/ListIndexedSeperatorTextStyle" />
+</LinearLayout>

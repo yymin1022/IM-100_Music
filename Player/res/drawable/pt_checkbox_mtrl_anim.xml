@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/pt_checkbox_disabled_mtrl0" />
+	<item android:state_enabled="false" android:drawable="@drawable/pt_checkbox_disabled_mtrl15" />
+	<item android:state_checked="true" android:id="@id/on" android:drawable="@drawable/pt_checkbox_mtrl0" />
+	<item android:id="@id/off" android:drawable="@drawable/pt_checkbox_mtrl15" />
+	<transition android:toId="@id/on" android:fromId="@id/off">
+		<animation-list>
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_mtrl15" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_mtrl14" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_mtrl13" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_mtrl12" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_mtrl11" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_mtrl10" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_mtrl9" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_mtrl8" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_mtrl7" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_mtrl6" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_mtrl5" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_mtrl4" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_mtrl3" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_mtrl2" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_mtrl1" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_mtrl0" />
+		</animation-list>
+	</transition>
+	<transition android:toId="@id/off" android:fromId="@id/on">
+		<animation-list>
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_off_mtrl15" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_off_mtrl14" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_off_mtrl13" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_off_mtrl12" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_off_mtrl11" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_off_mtrl10" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_off_mtrl9" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_off_mtrl8" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_off_mtrl7" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_off_mtrl6" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_off_mtrl5" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_off_mtrl4" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_off_mtrl3" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_off_mtrl2" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_off_mtrl1" />
+			<item android:duration="15" android:drawable="@drawable/pt_checkbox_off_mtrl0" />
+		</animation-list>
+	</transition>
+</animated-selector>

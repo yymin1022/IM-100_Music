@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/music_main_layer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:background="@color/list_tab_divider" android:layout_width="fill_parent" android:layout_height="2.0px" />
+	<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+		<include layout="@layout/list_activity_subactivity_childinfo_header" />
+		<LinearLayout android:orientation="horizontal" android:id="@id/list_fragment_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	</LinearLayout>
+	<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<LinearLayout android:orientation="horizontal" android:id="@id/music_mini_player" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/list_miniplayer_height_landscape">
+			<fragment android:name="com.pantech.app.music.library.ListMiniPlayer" android:id="@id/fragment_miniplayer" android:layout_width="fill_parent" android:layout_height="@dimen/list_miniplayer_height_landscape" />
+		</LinearLayout>
+		<include layout="@layout/list_activity_actionmode_command" />
+	</FrameLayout>
+</LinearLayout>

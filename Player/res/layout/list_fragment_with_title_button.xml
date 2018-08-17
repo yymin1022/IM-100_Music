@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/list_fragment_main_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/list_fragment_header_layout" android:layout_width="fill_parent" android:layout_height="37.0dip" android:paddingStart="14.0dip" android:paddingEnd="14.0dip">
+		<TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/list_fragment_header_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+		<Button android:textSize="14.0sp" android:textColor="#e5fafafa" android:id="@id/list_fragment_header_button" android:background="@drawable/btn_albums_play_nor" android:layout_width="wrap_content" android:layout_height="23.0dip" />
+	</LinearLayout>
+	<ImageView android:layout_gravity="bottom" android:background="@color/list_adapter_divider" android:layout_width="fill_parent" android:layout_height="2.0px" />
+	<android.support.v7.widget.RecyclerView android:id="@id/recyclerView" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:transitionName="@string/transition_recyclerView" />
+</LinearLayout>

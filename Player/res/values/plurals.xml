@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<plurals name="addtocart_result_success"><item quantity="other">Added %2$d songs to %1$s</item><item quantity="zero">Added %2$d song to %1$s</item><item quantity="one">Added %2$d song to %1$s</item></plurals>
+<plurals name="addtocart_result_success_duplication"><item quantity="other">Added %2$d song to %1$s except duplicated songs</item><item quantity="zero">Added %2$d song to %1$s except duplicated song</item><item quantity="one">Added %2$d song to %1$s except duplicated song</item></plurals>
+<plurals name="count_of_albums"><item quantity="other">%1d albums</item><item quantity="zero">%1d album</item><item quantity="one">%1d album</item></plurals>
+<plurals name="count_of_artist_songs"><item quantity="other">%1d songs</item><item quantity="zero">%1d song</item><item quantity="one">%1d song</item></plurals>
+<plurals name="count_of_songs"><item quantity="other">%1d songs</item><item quantity="zero">%1d song</item><item quantity="one">%1d song</item></plurals>
+<plurals name="number_of_items_selected"><item quantity="other">%1$d selected</item><item quantity="zero">%1$d selected</item><item quantity="one">%1$d selected</item></plurals>
+<plurals name="song_added_to_playlist"><item quantity="other">%2$d songs added</item><item quantity="one">%2$d song added</item></plurals>
+<plurals name="song_added_to_playlist_except_duplicated"><item quantity="other">%3$d songs added</item><item quantity="one">%3$d song added</item></plurals>
+<plurals name="song_deleted"><item quantity="other">%1$d songs deleted</item><item quantity="one">%1$d song deleted</item></plurals>
+<plurals name="song_deleted_except_duplicated"><item quantity="other">%2$d songs deleted</item><item quantity="one">%2$d song deleted</item></plurals>
+<plurals name="song_removed_from_playlist"><item quantity="other">%2$d songs removed</item><item quantity="one">%2$d song removed</item></plurals>
+<plurals name="song_removed_from_playlist_except_fail"><item quantity="other">%3$d songs removed</item><item quantity="one">%3$d song removed</item></plurals>
+</resources>

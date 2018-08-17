@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@color/list_actionmode_button_divier" android:paddingTop="@dimen/list_actionmode_command_divider_width" android:layout_width="fill_parent" android:layout_height="@dimen/list_actionmode_command_height">
+	<LinearLayout android:orientation="horizontal" android:background="@color/list_actionmode_button_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:gravity="center" android:id="@id/picker_command_cancel" android:background="@drawable/list_activity_actionmode_command_background" android:paddingLeft="35.0dip" android:paddingRight="35.0dip" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+			<TextView android:textSize="17.0sp" android:textColor="@color/list_activity_actionmode_command_textcolor" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" />
+		</LinearLayout>
+		<LinearLayout android:layout_gravity="center_vertical" android:background="@color/list_actionmode_button_divier" android:layout_width="@dimen/list_actionmode_command_divider_width" android:layout_height="27.0dip" />
+		<LinearLayout android:gravity="center" android:id="@id/picker_command_add" android:background="@drawable/list_activity_actionmode_command_background" android:paddingLeft="35.0dip" android:paddingRight="35.0dip" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+			<TextView android:textSize="17.0sp" android:textColor="@color/list_activity_actionmode_command_textcolor" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Add" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

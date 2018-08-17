@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/ListViewSeperatorTextMarginLeft" style="@style/ListIndexedSeperatorLayoutStyle">
+	<TextView android:id="@id/seperator_text" style="@style/ListIndexedSeperatorTextStyle" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:constantSize="true">
+	<item android:state_pressed="true">
+		<bitmap android:src="@drawable/pt_ic_voice_search_api_pre_holo_light" />
+	</item>
+	<item>
+		<bitmap android:src="@drawable/pt_ic_voice_search_api_nor_holo_light" />
+	</item>
+</selector>
