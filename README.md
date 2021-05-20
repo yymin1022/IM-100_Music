@@ -1,37 +1,23 @@
-# Pantech IM-100 Music Player Port
+# Pantech IM-100 Music Player Port for Android 6.0+
 
-# 팬택 IM-100 뮤직 플레이어 포팅본
+<img src="Images/app_1.png" width="30%" height="30%" alt="Screenshot"></img>
+<img src="Images/app_2.png" width="30%" height="30%" alt="Screenshot"></img>
 
-## 알려진 문제점 / Known Problems
+팬택 IM-100 (2016) 기기에 선탑재된 기본 음악 애플리케이션을
+Android 6.0 이상의 모든 기기에서 이용할 수 있도록 포팅한 자료입니다.
 
-> - 음악 목록 보기 중 '폴더보기'가 동작하지 않습니다.
->
-> - 알 수 없는 특정 상황에서 이퀄라이저가 적용되지 않고 오류가 발생합니다.
->
-> - Folder View does not work.
->
-> - Sometimes music equilizer does not work.
+### HOW TO
 
-## 설치 방법 / How to Use
+- <a href="https://github.com/yymin1022/IM-100_Music/releases">Release 페이지</a> 에서 Latest 태그로 업로드된 3개의 apk를 다운로드한 뒤 기기에 설치합니다.
 
-> Equilizer, Pantech Framework, Player 폴더에서 각각 app.apk 파일을 다운로드하여 설치합니다.
->
-> Download app.apk file from each Equilizer, Pantech Framework, Player folder.and install them.
+### Known Problems
 
-## 주의사항 / Caution(Warning)
+- 음악 목록 보기 중 '폴더보기'가 동작하지 않습니다.
 
-> 해당 파일들의 저작권은 모두 저 유용민에게 있으며, 이를 상업적으로 이용하거나 하는 행위는 저작권법에 위반되는 행위입니다. 공유를 원하는 경우 본 Github의 링크를 포함하실 것을 부탁드립니다.
->
-> All files copyright is  managed by me. If you want to share it, please share this Github url.
+- 알 수 없는 특정 상황에서 이퀄라이저가 적용되지 않고 오류가 발생합니다.
 
-## 개발기간 / Developed Date
+***
 
-> 2018년 4월
->
-> April 2018
-
-## 개발자 / Developer
-
-> 유용민 (성보고등학교 2016 입학생)
->
-> Yongmin Yoo (KR Sungbo High School - Entered 2016)
+### 배포 내역
+* 2016\. 07\. 개발 시작
+* 2016\. 08\. V1\.0 배포
