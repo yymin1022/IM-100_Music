@@ -2,6 +2,7 @@
 
 <img src="Images/app_1.png" width="30%" height="30%" alt="Screenshot"></img>
 <img src="Images/app_2.png" width="30%" height="30%" alt="Screenshot"></img>
+<img src="Images/app_3.png" width="30%" height="30%" alt="Screenshot"></img>
 
 팬택 IM-100 (2016) 기기에 선탑재된 기본 음악 애플리케이션을
 Android 6.0 이상의 모든 기기에서 이용할 수 있도록 포팅한 자료입니다.
